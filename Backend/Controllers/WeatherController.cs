@@ -8,6 +8,7 @@ namespace WeatherApi.Controllers
     public class WeatherController : ControllerBase
     {
         private readonly WeatherService _service;
+        private readonly WeatherService _service;
 
         public WeatherController(WeatherService service)
         {
